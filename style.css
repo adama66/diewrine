@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,600;0,800;1,600;1,800 & display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    
+        background-color: #17b4db; /* Couleur d'arrière-plan */
+        padding: 20px; /* Espacement intérieur pour le contenu */
+        text-align: center; /* Alignement du texte au centre */
+        .header {
+            background-color: #f2f2f2; /* Couleur d'arrière-plan */
+            padding: 20px; /* Espacement intérieur pour le contenu */
+            
+           
+          text-align: center; /* Alignement du texte au centre */
+          }
+          
+            h1 p :hover {
+                color: #aa0b13;
+             }
+          
+          
+          
+      
+      
+      /* Style du titre dans l'en-tête */
+      header h1 {
+        color: #26b5f7; /* Couleur du texte */
+        font-size: 24px; /* Taille de la police */
+        margin: 0; /* Réinitialisation de la marge pour éviter les espaces inutiles */
+      
+  
+ 
+    
+    }
+    
+        
+    
+h1 i h4{
+    background-color: #17b4db;
+}
+    
+    
+    
+
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif; /* Police de caractères par défaut */
+  line-height: 1.6; /* Hauteur de ligne pour un espacement confortable */
+  margin: 0; /* Réinitialisation de la marge par défaut */
+}
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo img{
+    width: 145px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    max-width: 1900px;
+    margin: 20px auto;
+    padding-left:25px ;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    max-width: 300px;
+}
+.cole-2 img{
+    width: 100%;
+    padding: 30px 0;
+    
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.cole-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgb(31, 31, 199);
+    color: #2876cf;
+    border: -radius 30px;
+    margin-top: 25px;
+    transition: backgroun 0.5;
+}
+.col-2 a:hover{
+    background: #106e77;
+}
+p{
+    color: #555;
+}
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+    
+}
+/* style de la section catagrie */
+.categories{
+    margin: 70;
+}
+.cole-3{
+    flex-basis: 30%;
+    min-width: 25px;
+    margin:auto;
+}
+.cole-3 img{
+    width: 100%;
+
+}
+.container h2{
+    max-width: 1200px;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+/* section des milleurs produit */
+.cole-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition:  transform 0,5s;
+
+}
+.cole-4 img{
+    width: 100%;
+}
+.cole-4:hover{
+    transform: translatey(-5px);
+
+}
+ /* Styling for the footer */
+ 
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0fb0fa;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.footer {
+    background-color: #2680d4;
+    background: #10ea59;   
+   
+color: #fff;
+    
+   
+padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+   
+padding: 0 20px;
+}
+
+.footer-content {
+    
+   
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    background-color: #26b5f7;
+    width: 449;
+    
+   
+flex: 1;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.footer-section h2 {
+    
+   
+font-size: 1.5em;
+    
+   
+margin-bottom: 10px;
+}
+
+.links ul {
+    
+
+   
+list-style: none;
+}
+    
+   
+{
+    padding: 0;
+}
+
+
+.links li {
+    
+   
+margin-bottom: 5px;
+}
+
+
+    h1 {
+        background: #fff;
+        font: size 16px;
+
+    }
+
+.text-input, textarea {
+    
+   
+width: 100%;
+
+    
+   
+padding: 10px;
+    
+   
+margin-bottom: 10px;
+}
+
+.btn {
+    
+   
+background-color: #3dd6fc7a;
+
+    
+   
+color: #8b0909;
+    
+   
+padding: 10px
+
+
+
+}
